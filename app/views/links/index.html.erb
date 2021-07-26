@@ -1,8 +1,12 @@
 <h1>URLtje</h1>
-<p>Enter the URL you would like shortened:</p>
-
-<%= form_for Link.new, url: '/links' do |f| %>
-  <%= f.text_field :original_url %>
-  <%= f.submit "Get Short URL" %>
-<% end %>
-
+<div class="container">
+  <div class="form">
+    <ul>
+      <li> <p>Enter the URL you would like shortened:</p> </li>
+          <%= form_for Link.new, url: '/links' do |f| %>
+      <li>  <%= f.text_field :original_url %> </li>
+      <li>  <%= f.submit "Get Short URL" %> </li>
+          <% end %>
+    </ul>
+  </div>
+</div>
