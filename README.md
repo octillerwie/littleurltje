@@ -1,24 +1,7 @@
-# README
+To run this app please follow the following steps:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+clone the repository
+path to the folder through your terminal
+run a rails server
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+et voila
