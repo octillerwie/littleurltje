@@ -6,8 +6,8 @@
     <ul>
       <li> <p>Enter the URL you would like shortened:</p> </li>
       <li> <p>Please only enter a full link including http:// or https://</p></li>
-          <%= form_for Link.new, url: '/links' do |f| %>
-      <li>  <%= f.text_field :original_url %> </li>
+          <%= simple_form_for Link.new, url: '/links' do |f| %>
+      <li>  <%= f.input :original_url, error: 'Your entered URL is not valid' %> </li>
       <li>  <%= f.submit "Get Short URL" %> </li>
           <% end %>
     </ul>
